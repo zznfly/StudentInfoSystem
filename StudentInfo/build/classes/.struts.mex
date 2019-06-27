@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="studentInfo" location="225,108" size="280,875">
+    <action name="user" location="67,98" size="150,104">
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="login.jsp" />
+      </result>
+      <result name="logOut">
+        <resourceEdge source="logOut" routing="0" target="login.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+      <result name="student">
+        <resourceEdge source="student" routing="0" target="ad.jsp" />
+      </result>
+    </action>
+    <action name="dataDicType" location="67,259" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+      <result name="typeSave" />
+    </action>
+    <action name="dataDic" location="67,364" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+      <result name="save" />
+    </action>
+    <action name="grade" location="67,469" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+      <result name="save" />
+    </action>
+    <action name="class" location="67,574" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+      <result name="save" />
+    </action>
+    <action name="student" location="67,679" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+      <result name="save" />
+    </action>
+    <action name="student2" location="67,784" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ad.jsp" />
+      </result>
+      <result name="save" />
+    </action>
+  </package>
+  <webResource name="login.jsp" path="/login.jsp" location="570,115" size="150,55" />
+  <webResource name="main.jsp" path="/main.jsp" location="10,885" size="150,55" />
+  <webResource name="ad.jsp" path="/ad.jsp" location="290,10" size="150,55" />
+</Struts2Diagram>
+
